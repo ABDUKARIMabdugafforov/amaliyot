@@ -47,13 +47,16 @@ box-sizing: border-box;
 
 
 .contenier{
+  
 display: flex;
 flex-wrap: wrap;
 margin-left: 300px;
-margin-top: 270px;
+margin-top: 130px;
 
 }
 .katta3{
+
+margin-top: 50px;
  transform: translateX(0px);
     display: flex;
     flex-direction: row;
@@ -96,14 +99,37 @@ margin: 2px;
 border-radius: 20px;
 color: #000000;
 }
-.card>img{
+.sfghjkl{
+    display: flex; 
+    flex-direction: column;
+}
+.carf{
+
+
+
+
+    width: 190px; ;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 2px;
+    
+    border-radius: 20px;
+    color: #000000;
+    }
+    .sldg{
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        padding-left: 6px;
+    }
+.carf>img{
     width: 100%;
-    height:50%;
+    height:100%;
     border-top-left-radius:10px ;
     border-top-right-radius: 10px;
 }
 .card>video{
-    z-index: 2px;
+    
 width: 100%;
 height:50%;
 border-top-left-radius:10px ;
@@ -228,6 +254,13 @@ height: 20px;
 
 
 
+}
+
+button:hover{
+    background-color: rgb(255, 0, 0);
+}
+button:active{
+    background-color: rgb(51, 0, 255);
 }
 h5{
     
@@ -380,18 +413,29 @@ margin-right: 140px;
 }
 
 
-.fa-house{
-font-size: 30px;
-
+.gt1 :hover{
+background-color: rgb(255, 0, 0);
+width: 200px;height: 50px;border-radius: 20px;
+padding-right: 20px;
+    padding-left: 20px;
+display: flex;flex-direction: row; align-items: center;
 
 }
-.fa-plus{
-font-size: 30px;
-
+.gt2 :hover{
+    padding-right: 20px;
+    padding-left: 20px;
+display: flex;flex-direction: row; align-items: center;
+    background-color: rgb(255, 0, 0);
+    width: 200px;height: 50px;border-radius: 20px;
+    
 }
-.fa-bolt{
-font-size: 30px;
+.gt3  :hover{
 
+    background-color: rgb(255, 0, 0);
+    width: 200px;height: 50px;border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+display: flex;flex-direction: row; align-items: center;
 }
 .fa-business-time{
 font-size: 30px;
@@ -401,6 +445,9 @@ font-size: 30px;
 
 
 }
+ 
+color: red;
+
 
 
 
@@ -431,16 +478,12 @@ font-size: 30px;
 
 
 
+
 .aka{
-display: flex;
-flex-direction: column;
-gap: 7px;
-align-items: last baseline;
-}
-.uka{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap:7px;
+    align-items: last baseline;
     }
 
 

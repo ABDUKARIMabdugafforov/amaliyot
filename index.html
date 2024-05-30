@@ -12,26 +12,7 @@
 
 <body>
     <div class="qscvbnm">
-        // Source mixins
-
-// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
-@include media-breakpoint-up(sm) { ... }
-@include media-breakpoint-up(md) { ... }
-@include media-breakpoint-up(lg) { ... }
-@include media-breakpoint-up(xl) { ... }
-@include media-breakpoint-up(xxl) { ... }
-
-// Usage
-
-// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
-.custom-class {
-  display: none;
-}
-@include media-breakpoint-up(sm) {
-  .custom-class {
-    display: block;
-  }
-}
+    
 
         
         
@@ -97,27 +78,27 @@
         
         
     </header>
+  
+   
     
-    
-    <!-- <i class="fa-solid fa-bolt" style="color: #005eff;"></i> -->
-    <!-- <i class="fa-solid fa-plus" style="color: #005eff;"></i> -->
-    <!-- <i class="fa-solid fa-business-time" style="color: #005eff;"></i> -->
-    <!-- <i class="fa-solid fa-circle-user" style="color: #00ff88;"></i> -->
-    <!-- <i class="fa-solid fa-gear" style="color: #ff0000;"></i> -->
-    
-    
-    <h6>
-        
-        <i class="fa-solid fa-circle-info" style="color: #000000;">yordam</i>
-    </h6>
-    <h4>
+   
+    <h4 style="overflow: scroll;">
         <div class="jkil">
             
-            <div class="uka">
+            <div class="wert" style="display: flex; flex-direction: column; gap: 30px;">
                 
-                <i class="fa-solid fa-house" style="display: flex;flex-direction: row; align-items: center;gap: 40px;" ><p style="font-size: 15px;">UY</p></i>
-                <i class="fa-solid fa-bolt" style="color: #000000; display: flex;flex-direction: row;align-items: center;gap: 40px;"><p style="font-size: 15px;">Shorts</p></i>
-                <i class="fa-solid fa-plus" style="color: #000000;display: flex; flex-direction: row; align-items: center; gap: 40px;"><p style="font-size: 15px;">Qoshish</p></i>
+                <div class="gt2">
+                   <i class="fa-solid fa-house" style="display: flex;flex-direction: row; align-items: center;gap: 40px; font-size: 30px;" ><p style="font-size: 15px;">UY</p></i>
+
+               </div>
+               <div class="gt3">
+                   <i class="fa-solid fa-bolt" style="color: #000000; display: flex;flex-direction: row;align-items: center;gap: 40px;font-size: 30px;"><p style="font-size: 15px;">Shorts</p></i>
+
+               </div> 
+               <div class="gt1">
+                   <i class="fa-solid fa-plus" style="color: #000000;display: flex; flex-direction: row; align-items: center; gap: 40px;font-size: 30px;"><p style="font-size: 15px;">Qoshish</p></i>
+
+               </div> 
                 
             </div>
             
@@ -131,43 +112,46 @@
             
             <div class="siz" style="display: flex; flex-direction: column; gap: 10px; transform: translateX(35px)translateY(70px); border-bottom: 2px solid rgb(151, 146, 146); padding-bottom: 20px;">
 
-                <i class="fa-solid fa-clock-rotate-left" style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; " ><p style="font-size: 15px;">Tarix</p></i>
-                <i class="fa-solid fa-bars-staggered" style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center;"><p style="font-size: 15px;">Playlistlar</p></i>
-                <i class="fa-regular fa-clock" style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center;"><p style="font-size: 15px;">keyinroq tomo...</p></i>
-                <i class="fa-regular fa-thumbs-up" style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center;"><p style="font-size: 15px;">yoqdi vidiyolar</p></i>
+                <div class="gt3">   <i class="fa-solid fa-clock-rotate-left" style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; " ><p style="font-size: 15px;">Tarix</p></i> </div>
+                    <div class="gt3">    <i class="fa-solid fa-bars-staggered" style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center;"><p style="font-size: 15px;">Playlistlar</p></i> </div>
+                        <div class="gt3">      <i class="fa-regular fa-clock" style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center;"><p style="font-size: 15px;">keyinroq tomo...</p></i> </div>
+                            <div class="gt3">      <i class="fa-regular fa-thumbs-up" style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center;"><p style="font-size: 15px;">yoqdi vidiyolar</p></i> </div>
             </div>
             <h2 class="34" style="font-size: 30px; transform: translateY(90px)translateX(50px);"  >obunalar </h2>
             <h2 class="6" style="display: flex; flex-direction: column; gap: 20PX;transform: translateX(35px)translateY(100px);border-bottom: 2px solid rgb(176, 172, 172);padding-bottom: 20px; ">
-              <div class="next" style="display: flex; flex-direction: row;gap: 0px; align-items: center;">  <img src="photo_2024-05-05_20-59-54.jpg" alt="" style="width: 30px; height: 30px;border-radius: 50px;"> <h3 class="listin"> Sharmatov Sotaqozi</h3></div>
-              <div class="next2" style="display: flex; flex-direction: row;gap: 0px; align-items: center;">  <img src="photo_2024-04-14_20-24-14.jpg" alt="" style="width: 30px; height: 30px;border-radius: 50px;"> <h3 class="listin245666U">jahongir PUBGer</h3></div>
+                <div class="gt3"><div class="lo1"> <div class="next" style="display: flex; flex-direction: row;gap: 0px; align-items: center;">  <img src="photo_2024-05-05_20-59-54.jpg" alt="" style="width: 30px; height: 30px;border-radius: 50px;"> <h3 class="listin"> Sharmatov Sotaqozi</h3></div></div> </div>
+               
+
+                <div class="gt3"> <div class="lo2"> <div class="next2" style="display: flex; flex-direction: row;gap: 0px; align-items: center;">  <img src="photo_2024-04-14_20-24-14.jpg" alt="" style="width: 30px; height: 30px;border-radius: 50px;"> <h3 class="listin245666U">jahongir PUBGer</h3></div></div></div>
               
               
-                <i class="fa-solid fa-list" style="color: black;font-size: 30px;display: flex; flex-direction: row; gap: 60px;align-items: center;"><a href=" " style="font-size: 15px; color: black;">Barcha obunalar</a></i>
+                <div class="gt3">  <i class="fa-solid fa-list" style="color: black;font-size: 30px;display: flex; flex-direction: row; gap: 60px;align-items: center;"><a href=" " style="font-size: 15px; color: black;">Barcha obunalar</a></i> <div></div>
             </h2>
             <h2 class="sd" style="transform: translateX(50px)translateY(140px); font-size: 30px;">Tatqiq Qiling</h2>
             <div class="xx" style="display: flex; flex-direction: column; gap: 20px; transform: translateX(35px ) translateY(180px); border-bottom: 2px solid rgb(183, 169, 169); padding-bottom: 20px;">
-                <i class="fa-solid fa-fire" style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; "><p style="font-size: 15px;">Trend</p></i>
-                <i class="fa-solid fa-music"style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; "><p style="font-size: 15px;"style="font-size: 30px;display: flex; flex-direction: row; gap: 20px; align-items: center; ">Musiqa</p></i>
+                <div class="gt1">   <i class="fa-solid fa-fire" style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; "><p style="font-size: 15px;">Trend</p></i> </div>
+                <div class="gt2">   <i class="fa-solid fa-music"style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; "><p style="font-size: 15px;"style="font-size: 30px;display: flex; flex-direction: row; gap: 20px; align-items: center; ">Musiqa</p></i> </div>
                
                
-                <i class="fa-solid fa-gamepad"style="font-size: 30px;display: flex; flex-direction: row; gap: 32px; align-items: center; "><p style="font-size: 15px;">Game</p></i>
-                <i class="fa-regular fa-newspaper"style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; "><p style="font-size: 15px;"style="font-size: 30px;display: flex; flex-direction: row; gap: 20px; align-items: center; ">Yangiliklar</p></i>
-                <i class="fa-solid fa-medal"style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; "><p style="font-size: 15px;">Spots</p></i>
+                <div class="gt1">  <i class="fa-solid fa-gamepad"style="font-size: 30px;display: flex; flex-direction: row; gap: 32px; align-items: center; "><p style="font-size: 15px;">Game</p></i> </div>
+                <div class="gt2">  <i class="fa-regular fa-newspaper"style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; "><p style="font-size: 15px;"style="font-size: 30px;display: flex; flex-direction: row; gap: 20px; align-items: center; ">Yangiliklar</p></i> </div>
+                <div class="gt3">   <i class="fa-solid fa-medal"style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; "><p style="font-size: 15px;">Spots</p></i> </div>
 
             </div>
             <h2 class="f5" style="transform: translateX(35px)translateY(220px); display: flex; flex-direction: column; gap: 20px;">
 
-                <i class="fa-solid fa-gears"style="font-size: 30px;display: flex; flex-direction: row; gap: 35px; align-items: center; "><p style="font-size: 15px;">Sozlamalar</p></i>
-                <i class="fa-regular fa-flag"style="font-size: 30px;display: flex; flex-direction: row; gap: 42px; align-items: center; "><p style="font-size: 15px;">Hisob Tarixi</p></i>
-                <i class="fa-regular fa-circle-question"style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; "><p style="font-size: 15px;">Yordam</p></i>
-                <i class="fa-solid fa-circle-exclamation"style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; "><p style="font-size: 15px;">fikr mulohaza y/b...</p></i>
+                <div class="gt2">   <i class="fa-solid fa-gears"style="font-size: 30px;display: flex; flex-direction: row; gap: 35px; align-items: center; "><p style="font-size: 15px;">Sozlamalar</p></i> </div>
+                <div class="gt1">   <i class="fa-regular fa-flag"style="font-size: 30px;display: flex; flex-direction: row; gap: 42px; align-items: center; "><p style="font-size: 15px;">Hisob Tarixi</p></i> </div>
+                <div class="gt3">   <i class="fa-regular fa-circle-question"style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; "><p style="font-size: 15px;">Yordam</p></i> </div>
+                <div class="gt3"> <i class="fa-solid fa-circle-exclamation"style="font-size: 30px;display: flex; flex-direction: row; gap: 40px; align-items: center; "><p style="font-size: 15px;">fikr mulohaza y/b...</p></i> </div>
             </h2>
             <h2 class="sehj" style="transform: translateX(35px)translateY(250px);display: flex; flex-direction: column; gap: 15px; ">
                 <div class="tep">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae non voluptatem sapiente.
                 </div>
-                <div class="pas">
+                <div class="pas" style="display: flex; flex-direction: column;gap: 15px ;">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nihil, sapiente autem mollitia molestias quibusdam aperiam saepe illum fugit eius atque at!
+                    <h2 class="l9" style="color : rgb(96, 92, 92); font-size: 15px;">@ 2024 Google LLC</h2>
                 </div>
             </h2>
         </div>
@@ -177,13 +161,23 @@
         
     </h4>
   
-        
     
     
     
     
     
-    <div class="contenier">
+    <div class="contenier"> 
+        <div class="2qwe23" style="transform: translateX(15px)translateY(0px);display: flex;flex-direction: row;gap: 10px;">
+            
+            <button style="width: 190px;height: 50px;border-radius: 10px; font-size: 20px;">Bosh sahifa</button>
+            <button style="width: 190px;height: 50px;border-radius: 10px; font-size: 20px;">qidiruv</button>
+            <button style="width: 190px;height: 50px;border-radius: 10px; font-size: 20px;">trend sahifa</button>
+            <button style="width: 190px;height: 50px;border-radius: 10px; font-size: 20px;">naxt sahifa</button>
+            <button style="width: 190px;height: 50px;border-radius: 10px; font-size: 20px;">ma'lumot</button>
+            <button style="width: 190px;height: 50px;border-radius: 10px; font-size: 20px;">short</button>
+            
+           </div>  
+
         <div class="katta3">
 
             
@@ -196,7 +190,7 @@
                     <div class="aka">
                         <h3>Konsta Ertasi-Yo'q Bu Yo'llarni</h3>
                         
-                        <a href="">Konsta</a>
+                        <a href="">Konsta</a><br>
                         <a href="">Ertasi Yo'q Bu Kunlani</a>
                     </div>
                 </div>
@@ -209,7 +203,7 @@
                     <img src="photo_2024-04-14_20-24-14.jpg" alt="">
                     <div class="aka">
                         <h3>odamlari soxta bu dunyoni </h3>
-                        <a href="">rauffov_soxta</a>
+                        <a href="">rauffov_soxta</a><br>
                         <a href="">dostlar</a><br>
                     </div>
                 </div>
@@ -222,7 +216,7 @@
                     <img src="photo_2024-04-14_20-24-14.jpg" alt="">
                     <div class="aka">
                         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</h3>
-                        <a href="">rrfhhhfdjdjjjdjjj</a>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                         <a href="">edhdeyfdhyfferhyfegh</a><br>
                     </div>
                 </div>
@@ -235,7 +229,7 @@
                     <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                     <div class="aka">
                         <h3>Lorem ipsum dolor sit amet .</h3>
-                        <a href="">rrfhhhfdjdjjjdjjj</a>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                         <a href="">edhdeyfdhyfferhyfegh</a><br>
                     </div>
                 </div>
@@ -250,9 +244,9 @@
              <div class="info">
                  <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                  <div class="aka">
-                     <h3>Lorem ipsum dolor sit .</h3>
-                     <a href="">rrfhhhfdjdjjjdjjj</a>
-                     <a href="">edhdeyfdhyfferhyfegh</a><br>
+                 <h3>Lorem ipsum dolor sit .</h3>
+                     <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                     <a href="">edhdeyfdhyfferhyfegh</a>
                  </div>
              </div>
          </div>
@@ -264,7 +258,7 @@
                 <img src="photo_2024-04-14_20-24-14.jpg" alt="">
                 <div class="aka">
                     <h3>Lorem ipsum dolor sit .</h3>
-                    <a href="">rrfhhhfdjdjjjdjjj</a>
+                    <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                     <a href="">edhdeyfdhyfferhyfegh</a><br>
                 </div>
             </div>
@@ -277,7 +271,7 @@
                 <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                 <div class="aka">
                     <h3>Lorem ipsum dolor sit amet .</h3>
-                    <a href="">rrfhhhfdjdjjjdjjj</a>
+                    <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                     <a href="">edhdeyfdhyfferhyfegh</a><br>
                 </div>
             </div>
@@ -290,7 +284,7 @@
                 <img src="photo_2024-04-14_20-24-14.jpg" alt="">
                 <div class="aka">
                     <h3>Lorem ipsum dolor sit amet .</h3>
-                    <a href="">rrfhhhfdjdjjjdjjj</a>
+                    <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                     <a href="">edhdeyfdhyfferhyfegh</a><br>
                 </div>
             </div>
@@ -305,8 +299,8 @@
             <div class="info">
                 <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                 <div class="aka">
-                    <h3>Lorem ipsum dolor sit .</h3>
-                    <a href="">rrfhhhfdjdjjjdjjj</a>
+                <h3>Lorem ipsum dolor sit .</h3>
+                    <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                     <a href="">edhdeyfdhyfferhyfegh</a><br>
                 </div>
             </div>
@@ -318,8 +312,8 @@
              <div class="info">
                  <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                  <div class="aka">
-                     <h3>Lorem ipsum dolor sit .</h3>
-                     <a href="">rrfhhhfdjdjjjdjjj</a>
+                 <h3>Lorem ipsum dolor sit .</h3>
+                     <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                      <a href="">edhdeyfdhyfferhyfegh</a><br>
                  </div>
              </div>
@@ -330,8 +324,8 @@
              <div class="info">
                  <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                  <div class="aka">
-                     <h3>Lorem ipsum dolor sit .</h3>
-                     <a href="">rrfhhhfdjdjjjdjjj</a>
+                 <h3>Lorem ipsum dolor sit .</h3>
+                     <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                      <a href="">edhdeyfdhyfferhyfegh</a><br>
                  </div>
              </div>
@@ -342,8 +336,8 @@
              <div class="info">
                  <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                  <div class="aka">
-                     <h3>Lorem ipsum dolor sit .</h3>
-                     <a href="">rrfhhhfdjdjjjdjjj</a>
+                 <h3>Lorem ipsum dolor sit .</h3>
+                     <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                      <a href="">edhdeyfdhyfferhyfegh</a><br>
                  </div>
              </div>
@@ -359,7 +353,7 @@
                      <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                      <div class="aka">
                          <h3>Lorem ipsum dolor sit .</h3>
-                         <a href="">rrfhhhfdjdjjjdjjj</a>
+                         <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                          <a href="">edhdeyfdhyfferhyfegh</a><br>
                         </div>
                     </div>
@@ -371,7 +365,7 @@
                         <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                         <div class="aka">
                             <h3>Lorem ipsum dolor sit .</h3>
-                            <a href="">rrfhhhfdjdjjjdjjj</a>
+                            <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                             <a href="">edhdeyfdhyfferhyfegh</a><br>
                         </div>
                     </div>
@@ -384,7 +378,7 @@
                         <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                         <div class="aka">
                             <h3>Lorem ipsum dolor sit .</h3>
-                            <a href="">rrfhhhfdjdjjjdjjj</a>
+                            <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                             <a href="">edhdeyfdhyfferhyfegh</a><br>
                         </div>
                     </div>
@@ -397,7 +391,7 @@
                         <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                         <div class="aka">
                             <h3>Lorem ipsum dolor sit .</h3>
-                            <a href="">rrfhhhfdjdjjjdjjj</a>
+                            <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                             <a href="">edhdeyfdhyfferhyfegh</a><br>
                         </div>
                     </div>
@@ -413,7 +407,7 @@
                         <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                         <div class="aka">
                             <h3>Lorem ipsum dolor sit .</h3>
-                            <a href="">rrfhhhfdjdjjjdjjj</a>
+                            <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                             <a href="">edhdeyfdhyfferhyfegh</a><br>
                         </div>
                     </div>
@@ -426,7 +420,7 @@
                         <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                         <div class="aka">
                             <h3>Lorem ipsum dolor sit .</h3>
-                            <a href="">rrfhhhfdjdjjjdjjj</a>
+                            <a href="">rrfhhhfdjdjjjdjjj</a><br>
                             <a href="">edhdeyfdhyfferhyfegh</a><br>
                         </div>
                     </div>
@@ -439,7 +433,7 @@
                         <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                         <div class="aka">
                             <h3>Lorem ipsum dolor sit .</h3>
-                            <a href="">rrfhhhfdjdjjjdjjj</a>
+                            <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                             <a href="">edhdeyfdhyfferhyfegh</a><br>
                         </div>
                     </div>
@@ -452,13 +446,381 @@
                         <img src="photo_2024-05-05_20-59-54.jpg" alt="">
                         <div class="aka">
                             <h3>Lorem ipsum dolor sit .</h3>
-                            <a href="">rrfhhhfdjdjjjdjjj</a>
+                            <a href="">rrfhhhfdjdjjjdjjj</a> <br>
                             <a href="">edhdeyfdhyfferhyfegh</a><br>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="sfghjkl">
+                <h3 class="styl" style="font-size: 35px;transform:translateY(-50px);color: aliceblue; width:100% ; height:60px ; background-color: rgb(116, 108, 108); border-radius: 20px; display: flex;flex-direction: row; align-items: center;margin-left: -0px;padding-left: 20px; margin-right: 0px;">Shorts</h3>
+                
+                <div class="sldg">
+
+                    <div class="carf">
+                        
+                        
+                        <img src="photo_2024-04-12_20-42-15.jpg" alt="">
+                        
+                        <div class="info">
+                            <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                            <div class="aka">
+                                <h3>Lorem ipsum dolor sit .</h3>
+                                <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                                <a href="">edhdeyfdhyfferhyfegh</a><br>
+                            </div>
+                        </div>
+                    </div><div class="carf">
+                        
+                        <img src="photo_2024-04-12_20-42-15.jpg" alt="">
+                        
+                        <div class="info">
+                            <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                            <div class="aka">
+                                <h3>Lorem ipsum dolor sit .</h3>
+                                <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                                <a href="">edhdeyfdhyfferhyfegh</a><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carf">
+                        
+                       
+                        <img src="photo_2024-04-12_20-42-15.jpg" alt="">
+                        
+                        
+                        <div class="info">
+                            <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                            <div class="aka">
+                                <h3>Lorem ipsum dolor sit .</h3>
+                                <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                                <a href="">edhdeyfdhyfferhyfegh</a><br>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carf">
+                        
+                        <img src="photo_2024-04-12_20-42-15.jpg" alt="">
+                        
+                        
+                        <div class="info">
+                            <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                            <div class="aka">
+                                <h3>Lorem ipsum dolor sit .</h3> 
+                                <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                                <a href="">edhdeyfdhyfferhyfegh</a><br>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carf">
+                        
+                        <img src="photo_2024-04-12_20-42-15.jpg" alt="">
+                        
+                        
+                        <div class="info">
+                            <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                            <div class="aka">
+                                <h3>Lorem ipsum dolor sit .</h3>
+                                <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                                <a href="">edhdeyfdhyfferhyfegh</a><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carf">
+                        
+                        <img src="photo_2024-04-12_20-42-15.jpg" alt="">
+                        
+                        
+                        <div class="info">
+                            <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                            <div class="aka">
+                                <h3>Lorem ipsum dolor sit .</h3>
+                                <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                                <a href="">edhdeyfdhyfferhyfegh</a><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
+            <h3 class="sret" style="font-size: 35px;transform:translateY(100px);color: aliceblue; width:100% ; height:60px ; background-color: rgb(116, 108, 108); border-radius: 20px; display: flex;flex-direction: row; align-items: center;margin-left: -0px;padding-left: 20px;">Yangiliklar</h3>
+            
+            <div class="last" style="display: flex; flex-direction: row;transform: translateY(140px);">
+
+                <div class="card">
+                    
+                    <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                    <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="last" style="display: flex; flex-direction: row;transform: translateY(140px);">
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="sret2" style="font-size: 35px;transform:translateY(100px);color: aliceblue; width:100% ; height:60px ; background-color: rgb(116, 108, 108); border-radius: 20px; display: flex;flex-direction: row; align-items: center;margin-left: -0px;padding-left: 20px;">Qisqa videolar</h3>
+        <div class="last2" style="display: flex; flex-direction: row;transform: translateY(140px);">
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="last3" style="display: flex; flex-direction: row;transform: translateY(140px);">
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last4" style="display: flex; flex-direction: row;transform: translateY(140px);">
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    
+                <video src="video_2024-05-08_11-04-32.mp4" controls></video>
+                
+                <div class="info">
+                    <img src="photo_2024-05-05_20-59-54.jpg" alt="">
+                    <div class="aka">
+                        <h3>Lorem ipsum dolor sit .</h3>
+                        <a href="">rrfhhhfdjdjjjdjjj</a> <br>
+                        <a href="">edhdeyfdhyfferhyfegh</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
         </div>
         
         
